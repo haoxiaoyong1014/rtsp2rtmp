@@ -1,0 +1,24 @@
+server:
+  port: 18089
+
+url:
+- key: 1
+  stream-url: rtsp://admin:admin12345@192.168.2.33:554/cam/realmonitor?channel=1&subtype=1
+
+#- key: 2
+  #stream-url: rtsp://admin:admin12345@192.168.2.11:554/cam/realmonitor?channel=1&subtype=1
+
+#- key: 3
+#  stream-url: rtsp://admin:admin12345@192.168.2.11:554/cam/realmonitor?channel=1&subtype=1
+#
+#- key: 4
+#  stream-url: rtsp://admin:aa@192.168.1.7/1/1
+
+jackson:
+  date-format: yyyy-MM-dd HH:mm:ss
+  default-property-inclusion: non_null
+  time-zone: GMT+8
+
+logging:
+  level:
+    root: info

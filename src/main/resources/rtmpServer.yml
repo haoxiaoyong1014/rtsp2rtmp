@@ -1,0 +1,13 @@
+rtmpPort: 1935
+enableHttpFlv: true
+httpFlvPort: 18082
+
+# 是否开启保存视频
+saveFlvFile: false
+# 视频保存路径
+saveFlVFilePath: /Users/yny/Documents
+# the size of thread pool that write rtmp and flv packages
+handlerThreadPoolSize: 8
+
+
+
